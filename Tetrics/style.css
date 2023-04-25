@@ -1,5 +1,11 @@
 .container {
     display: flex;
+    justify-content: center;
+  }
+
+  .extra  {
+    display: flex;
+   justify-content: space-evenly;
   }
   
   .grid {
@@ -7,7 +13,8 @@
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: #EBFEFF;
+    border: 1px solid grey;
   }
   
   .grid div {
@@ -26,10 +33,17 @@
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: #FDE8E9;
+    border: 1px dashed grey;
   }
   
   .mini-grid div {
     height: 20px;
     width: 20px;
+  }
+
+  #start-button {
+    height: 50px;
+    background-color: black;
+    color: white;
   }
